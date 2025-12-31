@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Sparkles, PartyPopper, Star } from 'lucide-react';
+import Firework from './Firework';
 
 interface ConfettiPiece {
   id: number;
@@ -38,6 +39,9 @@ const Celebration = () => {
 
   return (
     <div className="flex flex-col items-center justify-center text-center px-4">
+      {/* Fireworks */}
+      <Firework />
+      
       {/* Confetti */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-10">
         {confetti.map((piece) => (
