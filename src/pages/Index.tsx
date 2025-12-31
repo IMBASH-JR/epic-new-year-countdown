@@ -16,12 +16,6 @@ const Index = () => {
         <Countdown />
       </main>
       
-      {/* Footer */}
-      <footer className="absolute bottom-4 left-0 right-0 text-center">
-        <p className="text-muted-foreground text-sm">
-          🎆 Synced to your local time 🎆
-        </p>
-      </footer>
     </div>
   );
 };
